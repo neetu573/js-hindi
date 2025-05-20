@@ -26,4 +26,26 @@ const myFunction = function(){
     console.log("hello world");
 }
 
-console.log(typeof bigNumber);
+//console.log(typeof bigNumber);
+
+
+//                     MEMORY
+
+// stack(primitive), Heap(non-primitive)
+
+let myYoutubeName ="hiteshchaudhary.com"
+let anotherName = myYoutubeName
+anotherName= "chaiaurcode"
+
+//console.log(myYoutubeName);
+//console.log(anotherName);
+
+let userOne = {
+    email : "user@ggogle.com",
+    upi : "user@ybl",
+};
+let userTwo = userOne
+userTwo.email = "neetu@google.com"
+
+//console.log(userOne.email)
+//console.log(userTwo.email)
